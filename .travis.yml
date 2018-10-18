@@ -2,4 +2,4 @@ language: java
 jdk: oraclejdk9
 install: ./gradlew --version
 script: ./gradlew sanityCheck
-if: fork
+#if: pull_request
