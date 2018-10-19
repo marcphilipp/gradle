@@ -1,7 +1,5 @@
 language: java
 jdk: oraclejdk9
 install: ./gradlew --version
-script:
- - export
- - ./gradlew sanityCheck --continue --stacktrace --scan
+script: ./gradlew --continue --init-script gradle/init-scripts/build-scan.init.gradle.kts --scan --stacktrace sanityCheck
 #if: pull_request
