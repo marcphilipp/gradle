@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+this should not compile
+
 import org.gradle.api.internal.GradleInternal
 import org.gradle.build.Install
 import org.gradle.gradlebuild.ProjectGroups
